@@ -1,0 +1,29 @@
+footer{
+	font-size: $font-size-base;
+
+h3{
+	color:$brand-primary;
+}
+}
+
+#footer_area{
+	background-color: $shadow-color;
+	color:white;
+	@include margin(63px,0,0px,0);
+	.container-fluid{
+		background-color: $orange-color;
+		border-left: 15px solid white;
+		border-right: 15px solid white;
+			}
+	.social_area{
+		li{
+			display: inline-block;
+		}
+	}
+	.col-md-4{
+		@include padding(28px, 56px, 56px, 56px);
+		h3{
+			font-size: 4rem;
+		}
+	}
+}

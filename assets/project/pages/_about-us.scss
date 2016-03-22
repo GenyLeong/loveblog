@@ -1,0 +1,34 @@
+.orange-area{
+	background-color: $brand-warning;
+	height: 56px;
+}
+
+h2{
+	color:$brand-primary;
+	@include margin(12px,0,0,0);
+}
+
+.profile-section{
+	.profile-about{
+		padding: 7px;
+		border:1px solid $gray-color;
+		@include margin(0px,14px,21px,0);
+	}
+	p{
+	    @include margin(0px,0px,21px,0);
+	    font-size: 2rem;
+	    line-height: 3rem;
+	}
+	
+	h3{
+		display: inline-block;
+		color:$brand-warning;
+	}
+}
+
+blockquote{
+	    border-left: 7px solid $brand-warning;
+	    @include margin(49px,49px,49px,49px);
+	    color:$brand-warning;
+}
+

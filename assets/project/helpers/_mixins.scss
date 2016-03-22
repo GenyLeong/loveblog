@@ -1,0 +1,27 @@
+@mixin margin($mt, $mr, $mb, $ml){
+	margin:{
+		top:$mt;
+		bottom:$mb;
+		right:$mr;
+		left:$ml;
+	}
+}
+
+@mixin padding($pt, $pr, $pb, $pl){
+	padding:{
+		top:$pt;
+		bottom:$pb;
+		right:$pr;
+		left:$pl;
+	}
+}
+
+@mixin bg(){
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@mixin placeholder(){
+	color:$brand-warning;
+	text-transform: uppercase;
+}

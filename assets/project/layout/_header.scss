@@ -1,0 +1,32 @@
+header{
+	height: 70px;
+}
+
+nav{
+	h1{
+		color:$orange-color;
+	}
+}
+
+.nav > li > a{
+			color: $gray-color;
+			&:hover {
+    			text-decoration: none;
+    			background-color: transparent;
+    			color:$orange-color;
+			}
+}
+
+.navbar{
+	@include padding(0,14px,14px,14px);
+	background-color: white;
+	a{
+		text-transform: uppercase;
+	}
+.navbar-toggle{
+	background-color: $brand-warning;
+}
+.icon-bar{
+	background-color: white;
+}
+}

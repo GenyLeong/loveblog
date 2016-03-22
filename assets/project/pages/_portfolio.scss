@@ -1,0 +1,22 @@
+
+#categories{
+	h3{
+		display: inline-block;
+		@include margin(0px, 14px, 0px, 0px);
+	}
+	a{
+		display: inline-block;
+		padding: 14px;
+		color: $gray-color;
+		text-transform: uppercase;
+		@include margin(0px, 7px, 0px, 0px);
+	&:hover{
+		background-color: $brand-warning;
+		color:white;
+	}
+	a.active{
+		background-color: $brand-warning;
+		color:white;
+	}
+	}
+}

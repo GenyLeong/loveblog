@@ -1,0 +1,40 @@
+.col-md-3{
+	@include padding(0px,15px,0px,35px);
+
+	h3{
+		@include margin(21px,0px,21px,0px);
+		font-weight: 400;
+	}
+
+	p{
+		@include margin(21px,0px,21px,0px);
+	}
+
+	a{
+		color:$gray-dark;
+		text-decoration: $link-hover-decoration;
+		font-size: $font-size-h4;
+		&:hover{
+			color:$orange-color;
+		}
+}
+	li{
+		@include margin(7px,0px,0px,0px);
+	}
+}
+
+.bg-aside{
+		display: inline-block;
+		position: relative;
+		top: 1px;
+		float: right;
+		width: 91px;
+		background:url('../images/heading-bg.png');
+	    background-size: inherit;
+	    height: 28px;		
+}
+
+.photo-counter{
+	border:1px solid $orange-color;
+	@include margin(7px, 7px, 0px, 0px);
+}

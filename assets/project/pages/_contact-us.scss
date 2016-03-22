@@ -1,0 +1,33 @@
+.form-group{
+	*::-webkit-input-placeholder {@include placeholder(); } /* WebKit */
+	*:-moz-placeholder { @include placeholder(); } /* Firefox 18- */
+	*::-moz-placeholder { @include placeholder();} /* Firefox 19+ */
+	*:-ms-input-placeholder {@include placeholder(); } /* IE 10+ */
+}
+
+.col-md-3{
+	h3.inline{
+		font-size: 21px;
+	}
+}
+
+.form-control{
+		border-radius: 0px !important;
+		border: 1px solid red !important;
+		@include margin(21px, 0px, 21px, 0px);
+	}
+	.input{
+		@extend .form-control;
+		height: 50px !important;
+	}
+
+	.btn-danger{
+		background-color: $brand-warning;
+		color:white;
+		text-transform: uppercase;
+		font-size: 2.5rem;
+		&:hover{
+			background-color: white;
+			color:$brand-warning;
+		}
+	}

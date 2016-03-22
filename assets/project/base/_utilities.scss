@@ -1,0 +1,88 @@
+@import "../helpers/mixins.scss";
+@import "../helpers/variables.scss";
+//margins
+.mg-0{
+	@include margin(0px !important,0px !important,0px !important,0px !important);
+}
+.mt-7{
+	@include margin(7px,0,0,0);
+}
+
+.mt-21{
+	@include margin(21px,0,0,0);
+}
+
+.mt-63{
+	@include margin(63px,0,0,0);
+}
+
+.mt-35{
+	@include margin(35px,0,0,0);
+}
+
+.mr-14{
+	@include margin(0,14px,0px,0);
+}
+.mr-35{
+	@include margin(0,35px,0px,0);
+}
+.mb-28{
+	@include margin(0,0px,28px,0);
+}
+
+.mv-21{
+	@include margin(21px, 0px, 21px,0);
+}
+
+.mv-42{
+	@include margin(42px, 0px, 42px,0);
+}
+
+.pd-0{
+	@include padding(0 !important,0 !important,0 !important,0 !important);
+}
+
+.pr-35{
+	@include padding(0,35px,0px,0);
+}
+
+.mg-row{
+	@include margin(42px,0px,28px,0);
+}
+
+.text-orange{
+	color:$brand-warning;
+}
+.gray-color{
+	color:$gray-color;
+}
+
+.inline{
+	display: inline-block;
+}
+
+body{
+	font-family: $font_family_open;
+}
+
+h2{
+	text-transform: uppercase;
+	display: inline-block;
+	color:$orange-color !important;
+  }
+
+span{
+		color:$shadow-color;
+	}
+
+h3{
+	text-transform: uppercase;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none !important;
+}

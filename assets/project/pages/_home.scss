@@ -1,0 +1,68 @@
+.size{
+	@include size(100%, 700px !important);
+}
+
+.orange-bg{
+	@include size(500px, 200px);
+	background-color: $brand-warning;
+	opacity:0.6;
+	position: absolute;
+    bottom: 91px;
+}
+
+.fix-service-area{
+	a{
+	    padding: 14px;
+	    background-color: $orange-color;
+	    text-transform: uppercase;
+	    color:$link-color;
+	    text-decoration: $link-hover-decoration;
+	 }
+
+	p{ 
+		line-height: 1.5em;
+    	@include margin(12px,0px,12px,0);
+	}
+}
+
+.from_blog{
+	img{
+		width: 100%;
+	}
+	.line_blog{
+		background:url('../images/heading-bg.png');
+	    background-size: inherit;
+	    height: 28px;
+	    margin-top: 21px;
+	}
+	.blog_post_meta{
+		border: 1px solid $gray-color;
+		border-top: none;
+		@include padding(14px, 14px, 14px, 14px);
+		h3{
+			color:$gray-color;
+		}
+
+		h4{
+			color:$orange-color;
+		}
+	}
+}
+
+.carousel-area{
+	.container-fluid{
+		background-color: $orange-color;
+		border-left: 15px solid white;
+		border-right: 15px solid white;
+		position: relative;
+    	bottom: 4em;
+		}
+	.orange-area-shadow{
+		background-color: $shadow-color;
+		color:white;
+		height: 4em;
+}	
+}
+
+
+
