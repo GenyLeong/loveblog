@@ -5926,8 +5926,7 @@ body {
 
 h2 {
   text-transform: uppercase;
-  display: inline-block;
-  color: #E8663C !important; }
+  display: inline-block; }
 
 span {
   color: #F3B29D; }
@@ -6081,6 +6080,8 @@ footer {
     color: #BCBCBC; }
   .from_blog .blog_post_meta h4 {
     color: #E8663C; }
+.from_blog h2 {
+  color: #E8663C; }
 
 .carousel-area .container-fluid {
   background-color: #E8663C;
